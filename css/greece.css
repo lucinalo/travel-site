@@ -31,106 +31,78 @@ nav div ul {
   color: black;
 }
 
-.nav__menu--home {
+.nav__menu--greece {
+  padding: 1rem 4rem 1rem 1rem;
+  font-size: 0.8rem;
+  color: black;
   text-decoration: underline;
   text-decoration-color: #DB7A4E;
   text-decoration-thickness: 0.2rem;
   text-underline-offset: 0.4rem;
 }
 
-.nav__menu--greece {
-  padding: 1rem 4rem 1rem 1rem;
-  font-size: 0.8rem;
-  color: black;
-}
-
-div.header__hero {
-  background-color: #FEFAF5;
-  width: 100%;
-  height: 29rem;
-  display: flex;
-}
 
 div.header__hero--headline{
-  width: 100%;
-  padding: 3rem;
-  margin: 1rem 2rem 1rem 1rem;
-  color: #335576;
-}
-
-.header__hero {
-  padding-top: 1rem;
-  padding-bottom: 0.5rem;
-}
-
-.header__hero--headline p {
-  padding-top: 1rem;
-  padding-bottom: 2rem;
-}
-
-div img.image--plane {
-  width: 424px;
-  height: 355px;
-  flex: auto;
-  padding: 2rem 4rem 3rem 0.5rem;
-}
-
-.header__hero--button {
-  background-color: #DB7A4E;
-  padding: 0.5rem 2rem;
-  border-radius: 25px;
+  padding: 3rem 0rem 1.5rem 3rem;
+  margin: 1rem;
   color: white;
-}
-
-main {
-  padding: 2rem 4rem 2rem 4rem;
-  height: 100%;
+  font-size: 2rem;
   width: 100%;
+  display: inline-block;
 }
 
-.main--recommendations {
-  padding-bottom: 0.5rem;
-  color: #335576;
+div.header__hero--background-img {
+  background-image: url("../assets/images/greece.jpg");
+  background-position: center;
+  background-size: 100%;
+  height: 650px;
+  background-repeat: no-repeat;
 }
 
 section.main__cards {
   display: flex;
   justify-content: center;
+  
 }
 
-.card--hawaii img,
-.card--iceland img,
-.card--greece img {
+.card--friday,
+.card--saturday,
+.card--sunday {
   width: 15rem;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 4px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   margin: 1rem;
   position: relative;
+  background-color: white;
+  text-align: center;
+  height: 20rem;
 }
 
-#title--hawaii {
-  position: absolute;
-  top: 925px;
-  color: white;
-  right: auto;
-  padding-left: 170px;
+hr {
+  height: 4px;
+  background-color: #000000;
+  width: 88%;
+  margin: 0 auto;
 }
 
-#title--iceland {
-  position: absolute;
-  top: 925px;
-  color: white;
-  right: auto;
-  padding-left: 162px;
+h3 {
+  padding-top: 1rem;
+  padding-bottom: 0.1rem;
 }
 
-#title--greece {
-  position: absolute;
-  top: 925px;
-  color: white;
-  right: auto;
-  padding-left: 170px;
+.card--friday ul li,
+.card--saturday ul li,
+.card--sunday ul li {
+  list-style-type: none;
+  background-color: #FEFAF5;
+  border: 1px solid #FEFAF5;
+  border-radius: 10px;
+  margin: 15px;
+  padding: 10px;
+}
+
+section h3 {
 }
 
 footer {
